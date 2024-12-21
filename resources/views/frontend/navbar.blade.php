@@ -20,9 +20,11 @@
                     </div>
                     <div class="center-side">
                         <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand fullwidth-brand"><a class="brand-name" href="index.html"><img
-                                    src="{{ asset('front/images/logo-default-314x48.png') }}" alt="" width="314"
-                                    height="48"/></a></div>
+                        <div class="rd-navbar-brand fullwidth-brand">
+                            <a class="brand-name" href="index.html">
+                                <img src="{{ asset('front/images/stadium.jpg') }}" alt="" width="314" style="height: 100px;"/>
+                            </a>
+                        </div>
                     </div>
                     <div class="right-side">
                         <!-- Contact Info-->
@@ -30,7 +32,7 @@
                             <div class="unit unit-middle unit-horizontal unit-spacing-xs">
                                 <div class="unit__left"><span
                                         class="icon icon-primary text-middle mdi mdi-phone"></span></div>
-                                <div class="unit__body"><a class="text-middle" href="tel:#">+1 (409) 987–5874</a>
+                                <div class="unit__body"><a class="text-middle" href="tel:#">+998 (91) 435–14-16</a>
                                 </div>
                             </div>
                         </div>
@@ -47,9 +49,11 @@
                     <button class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse">
                         <span></span></button>
                     <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand mobile-brand"><a class="brand-name" href="index.html"><img
-                                src="{{ asset('front/images/logo-default-314x48.png') }}" alt="" width="314"
-                                height="48"/></a></div>
+                    <div class="rd-navbar-brand mobile-brand">
+                        <a class="brand-name" href="index.html">
+                            <img src="{{ asset('front/images/stadium.jpg') }}" alt="" width="314" style="height: 100px"/>
+                        </a>
+                    </div>
                 </div>
                 <div class="rd-navbar-aside-right">
                     <div class="rd-navbar-nav-wrap">

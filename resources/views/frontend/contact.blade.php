@@ -47,7 +47,7 @@
                                 <hr class="divider divider-left divider-custom">
                                 <div class="unit unit-middle unit-horizontal unit-spacing-xs unit-xs-top">
                                     <div class="unit__left"><span class="text-middle icon icon-sm mdi mdi-phone icon-primary"></span></div>
-                                    <div class="unit__body"><a class="text-middle link link-gray-dark" href="tel:#">1-800-1234-567</a></div>
+                                    <div class="unit__body"><a class="text-middle link link-gray-dark" href="tel:#">+998 (91) 435–14-16</a></div>
                                 </div>
                             </div>
                             <div class="cell-xs-6 cell-sm-12">

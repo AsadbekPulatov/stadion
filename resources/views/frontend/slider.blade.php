@@ -4,7 +4,7 @@
          data-autoplay="5500" data-simulate-touch="false" data-slide-effect="slide"
          data-direction="vertical">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="{{ asset('front/images/slide-01.jpg') }}">
+            <div class="swiper-slide" data-slide-bg="{{ asset('front/images/header1.jpg') }}">
                 <div class="swiper-slide-caption">
                     <div class="shell text-sm-left">
                         <h1 data-caption-animate="slideInDown" data-caption-delay="100">Your Ideal
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide" data-slide-bg="{{ asset('front/images/slide-02.jpg') }}">
+            <div class="swiper-slide" data-slide-bg="{{ asset('front/images/header2.jpg') }}">
                 <div class="swiper-slide-caption">
                     <div class="shell text-sm-left">
                         <h1 data-caption-animate="slideInDown" data-caption-delay="100">Relax &
@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide" data-slide-bg="{{ asset('front/images/slide-03.jpg') }}">
+            <div class="swiper-slide" data-slide-bg="{{ asset('front/images/header3.jpg') }}">
                 <div class="swiper-slide-caption">
                     <div class="shell text-sm-left">
                         <h1 data-caption-animate="slideInDown" data-caption-delay="100">Revitalize &
