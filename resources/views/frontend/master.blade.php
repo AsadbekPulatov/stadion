@@ -12,6 +12,12 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css"
           href="//fonts.googleapis.com/css?family=Lato:400,700,400italic%7CPoppins:300,400,500,700">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css"
+          integrity="sha512-MQXduO8IQnJVq1qmySpN87QQkiR1bZHtorbJBD0tzy7/0U9+YIC93QWHeGTEoojMVHWWNkoCp8V6OzVSYrX0oQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     <link rel="stylesheet" href="{{ asset('front/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('front/css/style.css') }}">
     <style>
@@ -84,6 +90,25 @@
 <!-- Javascript-->
 <script src="{{ asset('front/js/core.min.js') }}"></script>
 <script src="{{ asset('front/js/script.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"
+        integrity="sha512-K/oyQtMXpxI4+K0W7H25UopjM8pzq0yrVdFdG21Fh5dBe91I40pDd9A4lzNlHPHBIP2cwZuoxaUSX0GJSObvGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        flatpickr("#start-time", {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: "H:i",
+            time_24hr: true
+        });
+        flatpickr("#end-time", {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: "H:i",
+            time_24hr: true
+        });
+    });
+</script>
 <!--Coded by Drel-->
 </body>
 </html>

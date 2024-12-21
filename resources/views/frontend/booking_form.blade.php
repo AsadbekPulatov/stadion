@@ -1,6 +1,6 @@
-<div class="cell-lg-4 cell-xl-3 reveal-lg-flex">
+<div class="w-100">
     <div class="hotel-booking-form">
-        <h3>Book a Room</h3>
+        <h3>Book a Stadium</h3>
         <!-- RD Mailform-->
         <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact"
               method="post" action="bat/rd-mailform.php">
@@ -13,57 +13,27 @@
                     </div>
                 </div>
                 <div class="cell-lg-12 cell-md-4 cell-sm-6">
-                    <p class="text-uppercase">Arrival</p>
+                    <p class="text-uppercase">Date</p>
                     <div class="form-wrap">
                         <label class="form-label form-label-icon" for="date-in"><span
                                 class="icon icon-primary fa-calendar"></span><span>Check-in Date</span></label>
-                        <input class="form-input" id="date-in" data-time-picker="date" type="text"
+                        <input class="form-input" id="date-in" data-time-picker="date" type="date"
                                name="date">
                     </div>
                 </div>
                 <div class="cell-lg-12 cell-md-4 cell-sm-6">
-                    <p class="text-uppercase">Departure</p>
+                    <p class="text-uppercase">Time</p>
                     <div class="form-wrap">
                         <label class="form-label form-label-icon" for="date-out"><span
                                 class="icon icon-primary fa-calendar"></span><span>Check-out Date</span></label>
-                        <input class="form-input" id="date-out" data-time-picker="date" type="text"
+                        <input class="form-input" id="date-out" data-time-picker="date" type="time"
                                name="date">
-                    </div>
-                </div>
-                <div class="cell-lg-6 cell-md-4 cell-xs-6">
-                    <p class="text-uppercase">Adults</p>
-                    <div class="form-wrap form-wrap-validation">
-                        <!--Select 2-->
-                        <select class="form-input select-filter" data-minimum-results-search="-1"
-                                data-placeholder="1">
-                            <option>&nbsp;</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="cell-lg-6 cell-md-4 cell-xs-6">
-                    <p class="text-uppercase">Children</p>
-                    <div class="form-wrap form-wrap-validation">
-                        <!--Select 2-->
-                        <select class="form-input select-filter" data-minimum-results-search="-1"
-                                data-placeholder="0">
-                            <option>&nbsp;</option>
-                            <option value="1">0</option>
-                            <option value="2">1</option>
-                            <option value="3">2</option>
-                            <option value="4">3</option>
-                            <option value="5">4</option>
-                        </select>
                     </div>
                 </div>
                 <div class="cell-lg-12 cell-md-4">
                     <button
                         class="button button-primary button-square button-block button-effect-ujarak"
-                        type="submit"><span>check availability</span></button>
+                        type="submit"><span>Booking</span></button>
                 </div>
             </div>
         </form>

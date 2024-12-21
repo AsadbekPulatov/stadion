@@ -65,6 +65,9 @@
                                 <li @if(request()->routeIs('about')) class="active" @endif>
                                     <a href="{{ route('about') }}">About Us</a>
                                 </li>
+                                <li @if(request()->routeIs('stadiums')) class="active" @endif>
+                                    <a href="{{ route('stadiums') }}">Stadiums</a>
+                                </li>
                                 <li @if(request()->routeIs('contact')) class="active" @endif>
                                     <a href="{{ route('contact') }}">Contacts</a>
                                 </li>

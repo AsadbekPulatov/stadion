@@ -23,6 +23,10 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('frontend/contact');
 })->name('contact');
+Route::get('/stadiums', function () {
+    return view('frontend/stadiums');
+})->name('stadiums');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

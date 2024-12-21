@@ -1515,7 +1515,7 @@ $(function () {
 			}
 		}
 	}
-	
+
 
 	/**
 	 * Bootstrap Date time picker
@@ -1638,7 +1638,7 @@ $(function () {
 					});
 		}
 	}
-	
+
 	// lightGallery
 	if (plugins.lightGallery.length) {
 		for (var i = 0; i < plugins.lightGallery.length; i++) {
